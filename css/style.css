@@ -17,7 +17,7 @@ header {
     height: 80px;
 }
 
-header img {
+header .logo {
     width: 60px;
     margin: 10px 15px;
     vertical-align: middle;
@@ -27,4 +27,37 @@ header .logo-text {
     font-size: 40px;
     font-weight: 700;
     vertical-align: middle;
+}
+
+main {
+    background-color: white;
+    max-width: 700px;
+    height: 600px; /*  rimuovimi */
+    margin: 50px auto;
+    /* padding: 0 40px; */
+    border-radius: 10px;
+}
+
+.select {
+    padding: 0 40px;
+    border-bottom: 2px solid rgba(188, 188, 188, 0.478);
+}
+
+button {
+    height: 2em;
+    padding: 5px 10px;
+    margin: 20px 5px 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.b-button {
+    background-color: #51A0D5;
+    color: white;
+}
+
+.w-button {
+    background-color: transparent;
+    color: gray;
+    border: 1px solid grey;
 }
