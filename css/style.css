@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #dcdcdc;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+}
+
+header img {
+    width: 60px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+header .logo-text {
+    font-size: 40px;
+    font-weight: 700;
+    vertical-align: middle;
+}
