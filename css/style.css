@@ -68,7 +68,7 @@ ul {
     padding: 25px 40px;
 }
 
-.list-item-section {
+li.list-item-section {
     margin-bottom: 25px;
 }
 
@@ -89,15 +89,15 @@ ul {
     vertical-align: middle;
 }
 
-.list-item-td {
+li.list-item-td {
     margin: 10px 0 20px;
 }
 
 .align {
     vertical-align: middle;
 }
-
-.check-green {
+ 
+span.check-green {
     display: inline-block;
     color: green;
     font-size: 0.8em;
@@ -108,7 +108,23 @@ ul {
     text-align: center;
 }
 
-.tag {
+span.check-red{
+    display: inline-block;
+    color: red;
+    font-size: 0.8em;
+    border: 1px solid red;
+    border-radius: 10em;
+    width: 1.4em;
+    height: 1.4em;
+    text-align: center;
+}
+
+.tag-blue,
+.tag-purple, 
+.tag-green,
+.tag-orange,
+.tag-fuchsia,
+.tag-lightgreen {
     font-size: 0.7em;
     font-weight: 700;
     padding: 4px 8px;
@@ -118,4 +134,24 @@ ul {
 
 .tag-blue {
     background-color: #51A0D5;
+}
+
+.tag-purple {
+    background-color: purple;
+}
+
+.tag-green {
+    background-color: green;
+}
+
+.tag-orange {
+    background-color: orange;
+}
+
+.tag-fuchsia {
+    background-color: fuchsia;
+}
+
+.tag-lightgreen {
+    background-color: rgb(109, 182, 109);
 }
