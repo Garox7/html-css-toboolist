@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
 </head>
 <body>
     <header>
@@ -25,20 +28,35 @@
             <button class="btn-secondary">Add Section</button>
         </section>
 
-        <ul class="list-main">
+        <ul class="task-list">
             <li class="list-item-section">
-                <ul class="list-todos">
-                    <li class="list-item-todo"></li>
+
+                 <!--  <span class="dropdown-icon">&#9207;</span>
+                <i class="fa-solid fa-caret-down"></i>
+
+                 Non capisco perchè il mio browser non visualizza questa icona
+                ho provato ad utilizzarne diverse ed in diversi modi (come fontawesome).
+                non ho trovato una soluzione e quindi mi sono ricordato che potevo ricrearla
+                con i bordi... ed ecco fatto. -->
+
+                <div class="dropdown-icon"></div>
+                <h2 class="list-title">New Task</h2>
+                <ul class="list-td">
+                    <li class="list-item-td">
+                        <span class="align check-green">&#10003;</span>
+                        <span class="align text-todo">Quarterly Newsletter</span>
+                        <span class="align tag tag-blue">editorial</span>
+                    </li>
                 </ul>
             </li>
             <li class="list-item-section">
-                <ul class="list-todos">
-                    <li class="list-item-todo"></li>
+                <ul class="list-td">
+                    <li class="list-item-td"></li>
                 </ul>
             </li>
             <li class="list-item-section">
-                <ul class="list-todos">
-                    <li class="list-item-todo"></li>
+                <ul class="list-td">
+                    <li class="list-item-td"></li>
                 </ul>
             </li>
         </ul>

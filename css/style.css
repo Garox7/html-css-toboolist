@@ -61,3 +61,56 @@ main {
     color: gray;
     border: 1px solid grey;
 }
+
+ul {
+    list-style: none;
+}
+
+.task-list {
+    padding: 25px 40px;
+}
+
+/* ICONA DROPDOWN RICREATA CON I BORDI */
+.dropdown-icon {
+    display: inline-block;
+    vertical-align: middle;
+    border-top: 10px solid black;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.list-title {
+    display: inline;
+    vertical-align: middle;
+}
+
+.list-item-td {
+    margin: 5px 0;
+}
+
+.align {
+    vertical-align: middle;
+}
+
+.check-green {
+    display: inline-block;
+    color: green;
+    font-size: 0.8em;
+    border: 1px solid green;
+    border-radius: 10em;
+    width: 1.4em;
+    height: 1.4em;
+    text-align: center;
+}
+
+.tag {
+    font-size: 0.7em;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+.tag-blue {
+    background-color: #51A0D5;
+}
