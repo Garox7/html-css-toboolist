@@ -32,9 +32,7 @@ header .logo-text {
 main {
     background-color: white;
     max-width: 700px;
-    height: 600px; /*  rimuovimi */
     margin: 50px auto;
-    /* padding: 0 40px; */
     border-radius: 10px;
 }
 
@@ -70,22 +68,29 @@ ul {
     padding: 25px 40px;
 }
 
+.list-item-section {
+    margin-bottom: 25px;
+}
+
 /* ICONA DROPDOWN RICREATA CON I BORDI */
 .dropdown-icon {
     display: inline-block;
     vertical-align: middle;
-    border-top: 10px solid black;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
+    border-top: 8px solid black;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    margin: 0 5px 0 2px;
 }
 
 .list-title {
+    font-size: 1.3em;
+    font-weight: 500;
     display: inline;
     vertical-align: middle;
 }
 
 .list-item-td {
-    margin: 5px 0;
+    margin: 10px 0 20px;
 }
 
 .align {
